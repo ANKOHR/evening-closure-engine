@@ -1,0 +1,11 @@
+Evening Closure Engine build complete
+Test count: 32 passed (pytest, 0.43 seconds).
+Local implementation commit: bd66087c8654d0cba20e04c284e77aeca9852bb2
+Branch: main
+Measured synthetic demo: 0.729440 seconds for fixtures + run + report.
+Measured synthetic report command: 0.207611 seconds.
+Ground truth: 200 records, 40 closure tasks, 20 overdue, 20 due today, 10 blocked; all planted IDs found, zero false positives.
+
+Built a CPU-only, dependency-free Python CLI with fixtures, run, report, check and plan commands, pure schema validation and closure classification, deterministic JSON and Markdown reports with provenance and honesty labels, atomic report writes, named input errors, labelled 200-record synthetic fixtures and a hand-written five-record starter. The 32-test suite verifies exact counts and IDs, adversarial inputs, corruption sensitivity, Unicode, deterministic bytes and failure cleanup. README and LESSONS document the input rules, acceptance evidence and two-week improvement hook. Real-use verdict is pending the evidence window; no adoption or savings are claimed. GitHub publication was not performed and belongs to the separate verification step.
+
+The commit above identifies the verified implementation. A subsequent documentation-only commit records this file, avoiding a self-referential commit hash.
