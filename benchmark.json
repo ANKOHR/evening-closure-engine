@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "label": "Measured local runtime on synthetic data, not savings",
+  "records": 200,
+  "demo_seconds": 0.72944,
+  "report_seconds": 0.207611,
+  "platform": "Windows, Python 3.12.10",
+  "command": "ece fixtures --out demo && ece run --input demo && ece report --format md"
+}

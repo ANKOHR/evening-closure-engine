@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evening-closure-engine"
+version = "0.1.0"
+description = "Deterministic evening closure checks from explicit local task records"
+requires-python = ">=3.10"
+
+[project.scripts]
+ece = "evening_closure_engine.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

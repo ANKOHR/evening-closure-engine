@@ -1,0 +1,42 @@
+{
+  "synthetic": true,
+  "source": "SYNTHETIC five-record starter",
+  "as_of": "2026-09-30",
+  "records": [
+    {
+      "id": "starter-1",
+      "title": "Submit school assignment",
+      "priority": "high",
+      "status": "open",
+      "due": "2026-09-29"
+    },
+    {
+      "id": "starter-2",
+      "title": "Send application",
+      "priority": "critical",
+      "status": "done",
+      "due": "2026-09-30"
+    },
+    {
+      "id": "starter-3",
+      "title": "Tidy notes",
+      "priority": "low",
+      "status": "open",
+      "due": "2026-09-30"
+    },
+    {
+      "id": "starter-4",
+      "title": "Prepare next week outreach",
+      "priority": "high",
+      "status": "open",
+      "due": "2026-10-02"
+    },
+    {
+      "id": "starter-5",
+      "title": "Finish build review",
+      "priority": "critical",
+      "status": "blocked",
+      "due": "2026-09-30"
+    }
+  ]
+}
